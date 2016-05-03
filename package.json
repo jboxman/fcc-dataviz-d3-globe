@@ -1,0 +1,16 @@
+{
+  "name": "fcc-frontend-quotemachine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "live-server": "^1.0.0"
+  },
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

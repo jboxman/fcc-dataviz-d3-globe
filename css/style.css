@@ -1,0 +1,37 @@
+path {
+  stroke: white;
+  stroke-width: 0.25px;
+  fill: #FFFFCC;
+}
+
+/*
+http://stackoverflow.com/questions/5643254/how-to-scale-svg-image-to-fill-browser-window
+*/
+
+html, body {
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+#chart {
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background-color: #006994;
+}
+
+/*
+  http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html
+*/
+div.tooltip {
+  position: absolute;
+  padding: 1em;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0;
+}
